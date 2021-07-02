@@ -1,0 +1,28 @@
+.hided
+{
+    display: none;
+}
+body #content .tile-body.color table.table-custom > tbody > tr > td a.supprimer:hover {
+	color: red;
+}
+body #content .tile-body.color table.table-custom > tbody > tr > td a.modifier:hover[todo="modif"] {
+	
+   
+	color:#428bca;
+}
+body #content .tile-body.color table.table-custom > tbody > tr > td a.modifier:hover[todo="confirme"] {
+	color: #a2d200;
+}
+body #content .tile-body.color table.table-custom > tbody > tr > td a.check-toggler.checked:hover {
+	color: #a2d200;
+}
+body #content .tile-body.color table.table-custom > tbody > tr > td a.check-toggler:hover {
+	color: red;
+}
+html body.bg-1 {/*
+	background-repeat: repeat;*/
+	background-attachment: fixed;
+}
+.nicescroll-rails > div {
+	border: 0 !important;
+}
