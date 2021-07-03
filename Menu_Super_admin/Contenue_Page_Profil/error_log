@@ -1,0 +1,8 @@
+[29-Jan-2018 04:08:36 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host ' localhost:3306' (2) in /home/taberaty/public_html/vote/Gestion-Clients/Menu_Super_admin/Contenue_Page_Profil/Profil.php on line 134
+[29-Jan-2018 04:08:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/taberaty/public_html/vote/Gestion-Clients/Menu_Super_admin/Contenue_Page_Profil/Profil.php on line 136
+[29-Jan-2018 04:08:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/taberaty/public_html/vote/Gestion-Clients/Menu_Super_admin/Contenue_Page_Profil/Profil.php on line 141
+[29-Jan-2018 04:08:45 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/taberaty/public_html/vote/Gestion-Clients/Menu_Super_admin/Contenue_Page_Profil/connection_profile.php on line 4
+[29-Jan-2018 04:08:45 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/taberaty/public_html/vote/Gestion-Clients/Menu_Super_admin/Contenue_Page_Profil/connection_profile.php on line 56
+[29-Jan-2018 04:08:45 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/taberaty/public_html/vote/Gestion-Clients/Menu_Super_admin/Contenue_Page_Profil/connection_profile.php on line 67
+[17-Feb-2018 20:47:19 UTC] PHP Notice:  Undefined index: ID in /home/taberaty/public_html/vote/Gestion-Clients/Menu_Super_admin/Contenue_Page_Profil/Profil.php on line 145
+[17-Feb-2018 20:47:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/taberaty/public_html/vote/Gestion-Clients/Menu_Super_admin/Contenue_Page_Profil/Profil.php on line 151

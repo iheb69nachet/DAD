@@ -1,0 +1,56 @@
+.hided
+{
+    display: none;
+}
+body #content .tile-body.color table.table-custom > tbody > tr > td a.supprimer:hover {
+	color: red;
+}
+body #content .tile-body.color table.table-custom > tbody > tr > td a.modifier:hover[todo="modif"] {
+	
+   
+	color:#428bca;
+}
+body #content .tile-body.color table.table-custom > tbody > tr > td a.modifier:hover[todo="confirme"] {
+	color: #a2d200;
+}
+body #content .tile-body.color table.table-custom > tbody > tr > td a.check-toggler.checked:hover {
+	color: #a2d200;
+}
+body #content .tile-body.color table.table-custom > tbody > tr > td a.check-toggler:hover {
+	color: red;
+}
+html body.bg-6 {
+	background-repeat: repeat;
+	
+	background-attachment: relative;
+}
+.nicescroll-rails > div {
+	border: 0 !important;
+}
+h1.titstat {
+	color: #fff;
+	text-align: center;
+}
+.chart-stats {
+	background: rgba(0, 0, 0, 0.3);
+	margin: 0 0 20px;
+    padding: 20px 0;
+	color: #fff;
+	width: 100%;
+    display: inline-block;
+}
+.chart-stats .stat-item {
+    display: inline-block;
+	width: 50%;
+	float: left;
+}
+.chart-stats .chart-stats-tit {
+	text-align: center;
+	font-size: 18px;
+	margin: 0 0 20px;
+}
+.chart-stats ul {
+	list-style-type: none;
+    margin: auto;
+    display: table;
+}

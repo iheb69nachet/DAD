@@ -1,0 +1,137 @@
+<?php 
+session_start();
+$_SESSION['loaded_page']= "stat_operateur";
+?>
+<?php
+	ob_clean();
+	
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "projetphase1";
+
+
+$connect = mysqli_connect($servername,$username,$password,$dbname);
+
+	if (!$connect) {
+		die("Failed to connect: " .mysqli_connect_error());
+	}
+	
+	$stats = $stats_1 = $stats_2 = $stats_3 = $stats_4 = array('Homme' => 0, 'Femme' => 0);
+	$query=sprintf("SELECT v.*, c.Nom, c.prenom FROM votage v INNER JOIN compte_user c ON v.id_user = c.id");
+    $result = mysqli_query($connect, $query);
+	while ($obj=mysqli_fetch_object($result)){
+		if(!isset($stats[$obj->id_user])) {
+			$stats[$obj->id_user] = array('label' => $obj->Nom.' '.$obj->prenom, 'value' => 0);
+		}
+		$stats[$obj->id_user]['value']++;
+		if(($obj->Intention_Aux_Selections == Oui) && ($obj->Intention_Aux_Selections_2 == Oui)) {
+			if($obj->sexe == 'Homme') {
+				$stats_1['Homme']++; 
+			}
+			else {
+				$stats_1['Femme']++;
+			}
+		}
+		elseif(($obj->Intention_Aux_Selections == Oui) && ($obj->Intention_Aux_Selections_2 == Non)) {
+			if($obj->sexe == 'Homme') {
+				$stats_2['Homme']++; 
+			}
+			else {
+				$stats_2['Femme']++;
+			}
+		}
+		elseif(($obj->Intention_Aux_Selections == Non) && ($obj->Intention_Aux_Selections_2 == Oui)) {
+			if($obj->sexe == 'Homme') {
+				$stats_3['Homme']++; 
+			}
+			else {
+				$stats_3['Femme']++;
+			}
+		}
+		elseif(($obj->Intention_Aux_Selections == Non) && ($obj->Intention_Aux_Selections_2 == Non)) {
+			if($obj->sexe == 'Homme') {
+				$stats_4['Homme']++; 
+			}
+			else {
+				$stats_4['Femme']++;
+			}
+		}
+	}
+	$stat_group_1 = "{label :'Homme', value: ".$stats_1['Homme']."} ,";
+	$stat_group_1 .= "{label :'Femme', value: ".$stats_1['Femme']."} ,";
+	$stat_group_2 = "{label :'Homme', value: ".$stats_2['Homme']."} ,";
+	$stat_group_2 .= "{label :'Femme', value: ".$stats_2['Femme']."} ,";
+	$stat_group_3 = "{label :'Homme', value: ".$stats_3['Homme']."} ,";
+	$stat_group_3 .= "{label :'Femme', value: ".$stats_3['Femme']."} ,";
+	$stat_group_4 = "{label :'Homme', value: ".$stats_4['Homme']."} ,";
+	$stat_group_4 .= "{label :'Femme', value: ".$stats_4['Femme']."} ,";
+	
+	$stat_group = '';
+	foreach ($stats as $st) {
+		if($st['value'] && $st['label']) {
+			$stat_group .= "{label :'".$st['label']."', value: ".$st['value']."} ,";	
+		}
+	}
+
+?>
+<section class="chart-stats" >
+	<div class="">
+		<div class="chart-stats-tit"><h2>Statistique par utilisateur</h2></div>
+		<div id="browser-usage" style="height: 230px;" class="morris-chart"></div>
+	</div>
+	<div class="stat-item">
+		<div class="chart-stats-tit"><h2>Statistique oui oui</h2></div>
+		<div id="browser-usage-1" style="height: 230px;" class="morris-chart"></div>
+	</div>
+	<div class="stat-item">
+		<div class="chart-stats-tit"><h2>Statistique oui non</h2></div>
+		<div id="browser-usage-2" style="height: 230px;" class="morris-chart"></div>
+	</div>
+	<div class="stat-item">
+		<div class="chart-stats-tit"><h2>Statistique non oui</h2></div>
+		<div id="browser-usage-3" style="height: 230px;" class="morris-chart"></div>
+	</div>
+	<div class="stat-item">
+		<div class="chart-stats-tit"><h2>Statistique non non</h2></div>
+		<div id="browser-usage-4" style="height: 230px;" class="morris-chart"></div>
+	</div>
+</section>
+<script>
+	Morris.Donut({
+        element: 'browser-usage',
+        data: [
+		  <?php echo $stat_group ?>
+        ]
+    });
+	Morris.Donut({
+        element: 'browser-usage-1',
+        data: [
+		  <?php echo $stat_group_1 ?>
+        ],
+        colors: ['#00a3d8', '#ff0000']
+    });
+	Morris.Donut({
+        element: 'browser-usage-2',
+        data: [
+		  <?php echo $stat_group_2 ?>
+        ],
+        colors: ['#00a3d8', '#ff0000']
+    });
+	Morris.Donut({
+        element: 'browser-usage-3',
+        data: [
+		  <?php echo $stat_group_3 ?>
+        ],
+        colors: ['#00a3d8', '#ff0000']
+    });
+	Morris.Donut({
+        element: 'browser-usage-4',
+        data: [
+		  <?php echo $stat_group_4 ?>
+        ],
+        colors: ['#00a3d8', '#ff0000']
+    });
+</script>
+
+<script src="assets/js/vendor/morris/morris.min.js"></script>

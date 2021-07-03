@@ -1,0 +1,563 @@
+[29-Jan-2018 03:55:14 UTC] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/dbConfig.php on line 9
+[29-Jan-2018 03:56:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/dbConfig.php on line 9
+[29-Jan-2018 03:56:45 UTC] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/dbConfig.php on line 9
+[29-Jan-2018 03:57:38 UTC] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/dbConfig.php on line 9
+[29-Jan-2018 03:57:48 UTC] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/dbConfig.php on line 9
+[29-Jan-2018 03:59:06 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 03:59:13 UTC] PHP Notice:  Undefined index: age in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 25
+[29-Jan-2018 04:36:42 UTC] PHP Notice:  Undefined index: age in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 25
+[29-Jan-2018 04:42:23 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 04:46:00 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 04:46:09 UTC] PHP Notice:  Undefined index: age in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 25
+[29-Jan-2018 04:51:10 UTC] PHP Notice:  Undefined index: age in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 25
+[29-Jan-2018 04:55:20 UTC] PHP Notice:  Undefined index: age in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 25
+[29-Jan-2018 04:56:43 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 04:56:48 UTC] PHP Notice:  Undefined index: age in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 25
+[29-Jan-2018 05:26:04 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 05:48:25 UTC] PHP Notice:  Undefined index: age in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 25
+[29-Jan-2018 09:43:13 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 10:00:48 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 10:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 10:08:10 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 10:39:02 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 10:40:41 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 10:54:25 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 10:57:29 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 10:57:38 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:00:25 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:02:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:02:56 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:03:02 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:03:47 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:15:33 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:17:47 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:18:10 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:18:17 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:18:39 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:20:00 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:20:12 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:20:20 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:20:29 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:20:54 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:21:28 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:21:45 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:22:32 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:23:33 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:23:38 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:24:45 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:26:11 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:26:53 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:27:01 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:28:33 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:29:13 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:29:27 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:30:00 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:30:35 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:33:19 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:33:34 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:33:34 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:33:48 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:34:29 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:35:22 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:36:46 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:37:49 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:38:01 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:38:54 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:43:18 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:43:58 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:45:21 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:45:39 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[29-Jan-2018 11:46:43 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[29-Jan-2018 11:49:34 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[30-Jan-2018 07:55:44 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[30-Jan-2018 07:57:27 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[30-Jan-2018 08:01:55 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[30-Jan-2018 08:02:23 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[30-Jan-2018 10:35:52 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[30-Jan-2018 10:37:13 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[30-Jan-2018 20:50:29 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[30-Jan-2018 20:50:38 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[31-Jan-2018 15:53:23 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[31-Jan-2018 20:29:41 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[31-Jan-2018 20:40:26 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[31-Jan-2018 20:41:20 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[31-Jan-2018 22:51:28 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:05:22 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:06:23 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:06:49 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:07:48 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:08:36 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:13:28 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:20:41 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:20:44 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:21:03 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:21:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:23:52 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:25:13 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:31:12 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:31:58 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:35:35 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:36:30 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:40:49 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:42:47 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:44:06 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:44:52 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:48:52 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:52:09 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:57:36 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 09:58:53 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 09:58:58 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:04:48 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 10:07:30 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:07:44 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 10:10:36 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:10:52 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 10:12:17 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:15:31 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 10:18:08 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:18:17 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:19:10 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 10:20:04 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:20:17 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 10:21:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:22:00 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 10:24:48 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:32:11 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 10:33:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:33:16 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 10:38:03 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:43:32 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:46:00 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 10:46:06 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 10:47:27 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 10:48:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[01-Feb-2018 11:11:01 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[01-Feb-2018 11:11:39 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[02-Feb-2018 18:05:09 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[02-Feb-2018 18:06:01 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[04-Feb-2018 12:37:18 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[05-Feb-2018 16:40:45 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[05-Feb-2018 16:41:35 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[05-Feb-2018 16:42:01 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[05-Feb-2018 16:42:43 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[05-Feb-2018 19:56:51 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[05-Feb-2018 19:58:19 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[05-Feb-2018 19:58:55 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[05-Feb-2018 19:59:15 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[05-Feb-2018 19:59:51 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[05-Feb-2018 20:15:43 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[05-Feb-2018 20:16:19 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[09-Feb-2018 18:08:43 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[09-Feb-2018 18:09:24 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[10-Feb-2018 10:46:22 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[10-Feb-2018 10:47:48 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[11-Feb-2018 13:27:12 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[11-Feb-2018 13:28:06 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[11-Feb-2018 22:47:26 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 07:55:13 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 07:57:40 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:07:16 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:08:57 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 08:09:40 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:10:53 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 08:42:05 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:43:10 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 08:44:49 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:44:54 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:46:35 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 08:47:48 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:48:41 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 08:49:28 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:50:12 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 08:50:45 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:50:49 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:52:08 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 08:52:46 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:53:28 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 08:54:06 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:55:32 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 08:56:18 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:56:21 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:58:58 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 08:59:12 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 08:59:54 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:00:57 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:03:17 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:04:40 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:05:42 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:06:19 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:07:27 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:08:34 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:10:04 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:11:40 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:12:25 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:15:00 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:15:44 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:16:48 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:17:02 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:17:39 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:19:31 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:20:01 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:20:36 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:21:00 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:21:58 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:22:43 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:23:13 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:23:47 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:24:20 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:27:54 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:28:47 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:29:20 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:31:21 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:31:56 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:33:43 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:34:41 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:34:44 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:35:35 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:36:02 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:36:04 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:38:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:38:45 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:39:27 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:40:16 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:41:02 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:41:32 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:41:46 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:43:56 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:45:01 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:45:41 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:47:41 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:48:09 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:49:04 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:51:42 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:53:11 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:53:44 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 09:54:34 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 09:55:37 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 10:30:14 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 10:30:55 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 10:41:32 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 10:42:45 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 10:43:09 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 10:43:59 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 10:45:47 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 10:46:26 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 10:47:20 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 10:48:12 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 10:58:04 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 11:00:03 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 11:07:18 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 11:10:29 UTC] PHP Notice:  Undefined index: age in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 25
+[12-Feb-2018 11:10:29 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 11:23:49 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 11:26:18 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 11:26:38 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 11:29:40 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 11:30:19 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 11:31:55 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[12-Feb-2018 11:50:20 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 17:05:32 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 17:09:25 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[12-Feb-2018 17:10:45 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[13-Feb-2018 21:54:10 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[13-Feb-2018 21:55:08 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[14-Feb-2018 14:00:05 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[14-Feb-2018 14:01:18 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[14-Feb-2018 21:02:39 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[16-Feb-2018 11:48:32 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[16-Feb-2018 11:49:30 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[16-Feb-2018 11:55:56 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[16-Feb-2018 11:56:55 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[16-Feb-2018 17:14:49 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[16-Feb-2018 17:15:45 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[16-Feb-2018 18:58:25 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[16-Feb-2018 19:10:08 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[16-Feb-2018 19:12:52 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 07:54:56 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 07:58:16 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 07:59:20 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:09:48 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:09:56 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:10:41 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:34:14 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:35:52 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:48:17 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:49:21 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:49:48 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:51:54 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:52:29 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:52:30 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:52:30 UTC] PHP Notice:  Undefined index: ID in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 47
+[17-Feb-2018 08:52:35 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:52:35 UTC] PHP Notice:  Undefined index: ID in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 47
+[17-Feb-2018 08:53:07 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:53:29 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:53:54 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:54:06 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:54:27 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:54:34 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:55:07 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:55:13 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:55:28 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:55:54 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:56:04 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:56:08 UTC] PHP Notice:  Undefined index: age in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 25
+[17-Feb-2018 08:56:08 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:56:45 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:57:01 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:57:21 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:57:30 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:58:15 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:58:35 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:58:47 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 08:59:25 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 08:59:53 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:00:44 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:01:15 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:01:23 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:01:32 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:02:00 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:02:23 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:02:23 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:02:40 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:02:47 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:03:23 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:03:29 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:04:02 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:04:53 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:05:02 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:06:15 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:06:46 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:07:27 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:07:36 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:08:14 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:08:47 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:08:51 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:09:15 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:09:22 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:09:39 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:10:04 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:10:04 UTC] PHP Notice:  Undefined index: ID in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 47
+[17-Feb-2018 09:10:22 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:10:23 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:10:38 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:11:03 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:11:28 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:11:50 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:12:11 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:12:20 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:12:30 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:12:44 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:12:52 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:13:09 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:13:11 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:13:26 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:13:54 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:13:56 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:14:23 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:14:27 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:14:45 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:14:55 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:15:38 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:15:52 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:16:14 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:17:00 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:17:22 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:17:30 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:18:08 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:18:10 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:18:17 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:18:34 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:19:00 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:19:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:19:06 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:19:15 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:19:32 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:19:41 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:19:55 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:20:01 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:20:16 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:20:53 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:20:54 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:21:08 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:21:42 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:21:56 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:22:07 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:22:18 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:22:29 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:22:46 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:23:18 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:24:37 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:24:41 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:24:53 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:25:51 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:25:59 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:26:21 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:26:24 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:27:11 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:28:07 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:28:53 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:29:34 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:30:42 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:31:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:31:27 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:31:39 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:32:14 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:32:15 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:32:23 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:32:41 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:33:06 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:33:24 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:33:25 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:33:43 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:33:58 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:34:18 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:34:26 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:35:04 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:35:33 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:35:34 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:35:51 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:36:08 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:36:56 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:37:27 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:38:02 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:38:15 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:38:51 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:39:24 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:39:32 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:40:42 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:42:32 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:42:32 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:43:07 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:44:18 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:44:58 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:45:57 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:46:03 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:46:18 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:47:06 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:47:32 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:47:37 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:47:55 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:48:40 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:49:02 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:49:23 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:49:27 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:50:15 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:50:46 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:51:06 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:51:39 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:52:33 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:52:54 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:54:10 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:55:02 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:56:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:56:34 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:57:24 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:58:03 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:58:24 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 09:59:12 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 09:59:25 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:00:12 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:00:18 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:00:57 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:01:23 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:02:06 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:02:54 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:02:58 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:04:02 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:04:34 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:05:12 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:05:38 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:06:02 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:06:39 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:07:11 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:07:35 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:08:09 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:09:23 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:09:58 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:10:14 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:10:47 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:10:57 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:11:27 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:12:18 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:12:48 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:12:51 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:13:14 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:13:50 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:14:07 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:14:17 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:14:39 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:14:52 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:15:13 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:15:19 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:16:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:16:22 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:16:57 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:17:46 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:18:48 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:19:29 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:20:19 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:20:59 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:22:31 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:23:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:23:08 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:23:30 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:23:48 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:24:29 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:25:10 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:25:47 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:26:18 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:26:41 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:26:59 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:27:22 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:27:57 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:28:02 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:28:44 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:29:07 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:29:34 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:29:52 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:30:29 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:30:48 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:31:17 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:31:51 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:32:11 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:32:17 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:32:43 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:33:30 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:33:31 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:34:07 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:34:40 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:34:43 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:34:57 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:35:14 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:35:20 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:35:32 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:36:13 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:36:19 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:36:50 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:37:02 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:38:42 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:38:48 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:39:09 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:39:29 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:39:57 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:40:19 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:40:44 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:40:57 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:42:05 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:43:00 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:43:18 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 10:44:52 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 10:45:18 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 11:03:49 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 11:04:40 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 11:06:03 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 11:06:57 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 11:08:04 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 11:17:03 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 11:18:01 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 11:54:39 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 11:55:38 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
+[17-Feb-2018 15:09:50 UTC] PHP Notice:  Trying to get property of non-object in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/ajaxData.php on line 30
+[17-Feb-2018 15:10:42 UTC] PHP Notice:  Undefined index: Participation_au_Selection_2014 in /home/taberaty/public_html/vote/Gestion-Clients/Menu_ouvrier/V_connection.php on line 39
