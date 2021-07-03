@@ -183,9 +183,9 @@ if (mysqli_query != ''){
 	$res_demande = mysqli_query($connect, $sql);
 	$heure = date("His");
 
-  // header("Location: http://localhost/Gestion/Menu_demandeur/middle.php?date=$dtee&heure=$heure&cs=$cs&ref_site=$ref_site");
+  header("Location: http://localhost/Gestion/Menu_demandeur/middle.php?date=$dtee&heure=$heure&cs=$cs&ref_site=$ref_site");
 
-  header("Location: http://192.168.0.85/Gestion/Menu_demandeur/middle.php?date=$dtee&heure=$heure&cs=$cs&ref_site=$ref_site");
+  // header("Location: http://192.168.0.85/Gestion/Menu_demandeur/middle.php?date=$dtee&heure=$heure&cs=$cs&ref_site=$ref_site");
 	}
 else{
 	echo $sql;

@@ -151,28 +151,43 @@ switch ($mypage){
 					<div>
 							 <?php
 							 
-								if(($_SESSION['acess_level'] == "L0") /*&& ($_SESSION['site'] == "admin")*/){
+								if(($_SESSION['acess_level'] == "L0") ){
 								include("Menu_Super_admin/Sidbar_Menu.php"); 
 								 }
-								 if(($_SESSION['acess_level'] == "L1") /*&& ($_SESSION['site'] == "CLSB")*/){
+								 if(($_SESSION['acess_level'] == "L1") ){
 								include("Menu_demandeur/Sidbar_Menu_demadeur.php"); 
 								 }
-							 if(($_SESSION['acess_level'] == "L2") /*&& ($_SESSION['site'] == "CLSB")*/){
+								 	/*******************************************************************************/
+									if(($_SESSION['acess_level'] == "L1.1") ){
+									 include("Menu_Directeur_industrielle/Sidbar_Directeur_industrielle.php"); 
+									}
+									if(($_SESSION['acess_level'] == "L12") ){
+									 include("Menu_Directeur_maintenance/Sidbar_Directeur_maintenance.php"); 
+									}
+									if(($_SESSION['acess_level'] == "L13") ){
+									 include("Menu_HACCP/Sidbar_HACCP.php"); 
+									}
+									if(($_SESSION['acess_level'] == "L14") ){
+									 include("Menu_SST/Sidbar_SST.php"); 
+									}
+									/*******************************************************************************/	
+															
+							 if(($_SESSION['acess_level'] == "L2") ){
 								include("Menu_chef_hierarchie/Sidbar_chef_hierarchie.php"); 
 								 }
-								  if(($_SESSION['acess_level'] == "L3") /*&& ($_SESSION['site'] == "CLSB")*/){
+								  if(($_SESSION['acess_level'] == "L3") ){
 								include("Menu_Comptabilite/Sidbar_Comptabilite.php"); 
 								 }
-								  if(($_SESSION['acess_level'] == "L4") /*&& ($_SESSION['site'] == "CLSB")*/){
+								  if(($_SESSION['acess_level'] == "L4") ){
 								include("Menu_controle_gestion/Sidbar_controle_gestion.php"); 
 								 } 
-								 if(($_SESSION['acess_level'] == "L5") /*&& ($_SESSION['site'] == "CLSB")*/){
+								 if(($_SESSION['acess_level'] == "L5") ){
 								include("Menu_DGA/Sidbar_DGA.php"); 
 								 } 
-								 if(($_SESSION['acess_level'] == "L6") /*&& ($_SESSION['site'] == "CLSB")*/){
+								 if(($_SESSION['acess_level'] == "L6") ){
 								include("Menu_Dir/Sidbar_Dir.php"); 
 								 }
-								 if(($_SESSION['acess_level'] == "L7") /*&& ($_SESSION['site'] == "CLSB")*/){
+								 if(($_SESSION['acess_level'] == "L7") ){
 								include("Menu_APPRO/Sidbar_APPRO.php"); 
 								 }
 							 ?>
@@ -184,29 +199,45 @@ switch ($mypage){
 				   <div>
 				  <?php 		
 				
-								if(($_SESSION['acess_level'] == "L0") /*&& ($_SESSION['site'] == "admin")*/){
+								if(($_SESSION['acess_level'] == "L0") ){
 								 include("Menu_Super_admin/NavBar.php"); 
 								}
-								if(($_SESSION['acess_level'] == "L1") /*&& ($_SESSION['site'] == "CLSB")*/){
+								if(($_SESSION['acess_level'] == "L1") ){
 								 include("Menu_demandeur/NavBar_demandeur.php"); 
 								}
-								if(($_SESSION['acess_level'] == "L2") /*&& ($_SESSION['site'] == "CLSB")*/){
+								
+								/*******************************************************************************/
+									if(($_SESSION['acess_level'] == "L1.1") ){
+									 include("Menu_Directeur_industrielle/NavBar_Directeur_industrielle.php"); 
+									}
+									if(($_SESSION['acess_level'] == "L12") ){
+									 include("Menu_Directeur_maintenance/NavBar_Directeur_maintenance.php"); 
+									}
+									if(($_SESSION['acess_level'] == "L13") ){
+									 include("Menu_HACCP/NavBar_HACCP.php"); 
+									}
+									if(($_SESSION['acess_level'] == "L14") ){
+									 include("Menu_SST/NavBar_SST.php"); 
+									}
+									/*******************************************************************************/	
+															
+								if(($_SESSION['acess_level'] == "L2") ){
 								 include("Menu_chef_hierarchie/NavBar_chef_hierarchie.php"); 
 								}
-								if(($_SESSION['acess_level'] == "L3") /*&& ($_SESSION['site'] == "CLSB")*/){
+								if(($_SESSION['acess_level'] == "L3") ){
 								 include("Menu_Comptabilite/NavBar_Comptabilite.php"); 
 								}
-								if(($_SESSION['acess_level'] == "L4") /*&& ($_SESSION['site'] == "CLSB")*/){
+								if(($_SESSION['acess_level'] == "L4") ){
 								 include("Menu_controle_gestion/NavBar_controle_gestion.php"); 
 								}
 								
-								if(($_SESSION['acess_level'] == "L5") /*&& ($_SESSION['site'] == "CLSB")*/){
+								if(($_SESSION['acess_level'] == "L5") ){
 								 include("Menu_DGA/NavBar_DGA.php"); 
 								}
-								if(($_SESSION['acess_level'] == "L6") /*&& ($_SESSION['site'] == "CLSB")*/){
+								if(($_SESSION['acess_level'] == "L6") ){
 								 include("Menu_Dir/NavBar_Dir.php"); 
 								}
-								if(($_SESSION['acess_level'] == "L7") /*&& ($_SESSION['site'] == "CLSB")*/){
+								if(($_SESSION['acess_level'] == "L7") ){
 								include("Menu_APPRO/NavBar_APPRO.php"); 
 								 }
 								 
@@ -232,29 +263,44 @@ switch ($mypage){
 					</div>';
 					
 										
-								if(($_SESSION['acess_level'] == "L0") /*&& ($_SESSION['site'] == "admin")*/){
+								if(($_SESSION['acess_level'] == "L0")){
 								 include("Menu_Super_admin/Acceuil_superadmin.php"); 
 								}
-								if(($_SESSION['acess_level'] == "L1") /*&& ($_SESSION['site'] == "CLSB")*/){
+								if(($_SESSION['acess_level'] == "L1") ){
 								 include("Menu_demandeur/Acceuil_demandeur.php"); 
 								}
-								if(($_SESSION['acess_level'] == "L2") /*&& ($_SESSION['site'] == "CLSB")*/){
+									/*******************************************************************************/
+									if(($_SESSION['acess_level'] == "L1.1") ){
+									 include("Menu_Directeur_industrielle/Acceuil_Directeur_industrielle.php"); 
+									}
+									if(($_SESSION['acess_level'] == "L12") ){
+									 include("Menu_Directeur_maintenance/Acceuil_Directeur_maintenance.php"); 
+									}
+									if(($_SESSION['acess_level'] == "L13") ){
+									 include("Menu_HACCP/Acceuil_HACCP.php"); 
+									}
+									if(($_SESSION['acess_level'] == "L14") ){
+									 include("Menu_SST/Acceuil_SST.php"); 
+									}
+									/*******************************************************************************/	
+															
+								if(($_SESSION['acess_level'] == "L2") ){
 								 include("Menu_chef_hierarchie/Acceuil_chef_hierarchie.php"); 
 								}
-								if(($_SESSION['acess_level'] == "L3") /*&& ($_SESSION['site'] == "CLSB")*/){
+								if(($_SESSION['acess_level'] == "L3") ){
 								 include("Menu_Comptabilite/Acceuil_Comptabilite.php"); 
 								}
-									if(($_SESSION['acess_level'] == "L4") /*&& ($_SESSION['site'] == "CLSB")*/){
+									if(($_SESSION['acess_level'] == "L4") ){
 								 include("Menu_controle_gestion/Acceuil_controle_gestion.php"); 
 								}	
-								if(($_SESSION['acess_level'] == "L5") /*&& ($_SESSION['site'] == "CLSB")*/){
+								if(($_SESSION['acess_level'] == "L5") ){
 								 include("Menu_DGA/Acceuil_DGA.php"); 
 								}
 								
-								if(($_SESSION['acess_level'] == "L6") /*&& ($_SESSION['site'] == "CLSB")*/){
+								if(($_SESSION['acess_level'] == "L6") ){
 								 include("Menu_Dir/Acceuil_Dir.php"); 
 								}
-								if(($_SESSION['acess_level'] == "L7") /*&& ($_SESSION['site'] == "CLSB")*/){
+								if(($_SESSION['acess_level'] == "L7") ){
 								include("Menu_APPRO/Acceuil_APPRO.php"); 
 								 }
 
