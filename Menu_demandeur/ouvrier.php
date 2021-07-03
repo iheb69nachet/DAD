@@ -159,19 +159,20 @@ $_SESSION['loaded_page']= "ouvrier";
 								<div class="col-sm-8">
 								 <select id="Magcc" name="Magcc" style="width:250px !important;"  class="form-control action" required="required">
 								 <option value="0">Selectionner votre magasin</option>
-												<?php
+								 <?php
 												
-													$conn = new PDO("sqlsrv:Server=192.168.0.46; Database=JDE_PRODUCTION", "DAD", "dAd2020+");
-													$conn->setAttribute ( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION ); 
-													$sql = "SELECT CIMCU FROM PRODDTA.F41001";
-													$stmt = $conn->query($sql);
-														while ($row = $stmt->fetch(PDO::FETCH_NUM)) {
-																			
-													{
-													echo "<option>$row[0]</option>";
-													} 
-														}
-													?>
+												$conn = new PDO("sqlsrv:Server=192.168.0.46; Database=JDE_PRODUCTION", "DAD", "dAd2020+");
+												$conn->setAttribute ( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION ); 
+												$sql = "SELECT CIMCU FROM PRODDTA.F41001";
+												$stmt = $conn->query($sql);
+													while ($row = $stmt->fetch(PDO::FETCH_NUM)) {
+																		
+												{
+												echo "<option>$row[0]</option>";
+												} 
+													}
+												?>
+
 							</select>
 												  
 						   
@@ -272,7 +273,7 @@ $_SESSION['loaded_page']= "ouvrier";
 										  <label class="col-xs-8 control-label"><strong>Directeur Industrielle</strong></label>
 										  <div class="col-xs-4 control-label">
 											<div class="onoffswitch hotpink">
-											  <input type="checkbox" name="Directeur_indus"  value="1" class="onoffswitch-checkbox" id="switch-off1">
+											  <input type="checkbox" name="Directeur_indus"  value="L1.1" class="onoffswitch-checkbox" id="switch-off1">
 											  <label class="onoffswitch-label" for="switch-off1">
 												<span class="onoffswitch-inner"></span>
 												<span class="onoffswitch-switch"></span>
@@ -284,7 +285,7 @@ $_SESSION['loaded_page']= "ouvrier";
 										  <label class="col-xs-8 control-label"><strong>Directeur Maintenance</strong></label>
 										  <div class="col-xs-4 control-label">
 											<div class="onoffswitch hotpink">
-											  <input type="checkbox" name="Directeur_maint" value="1" class="onoffswitch-checkbox" id="switch-off2">
+											  <input type="checkbox" name="Directeur_maint" value="L1.2" class="onoffswitch-checkbox" id="switch-off2">
 											  <label class="onoffswitch-label" for="switch-off2">
 												<span class="onoffswitch-inner"></span>
 												<span class="onoffswitch-switch"></span>
@@ -298,7 +299,7 @@ $_SESSION['loaded_page']= "ouvrier";
 										  <label class="col-xs-8 control-label"><strong>HACCP</strong></label>
 										  <div class="col-xs-4 control-label">
 											<div class="onoffswitch hotpink">
-											  <input type="checkbox" name="HACCP" value="1" class="onoffswitch-checkbox" id="switch-off3">
+											  <input type="checkbox" name="HACCP" value="L1.3" class="onoffswitch-checkbox" id="switch-off3">
 											  <label class="onoffswitch-label" for="switch-off3">
 												<span class="onoffswitch-inner"></span>
 												<span class="onoffswitch-switch"></span>
@@ -311,7 +312,7 @@ $_SESSION['loaded_page']= "ouvrier";
 										  <label class="col-xs-8 control-label"><strong>SST</strong></label>
 										  <div class="col-xs-4 control-label">
 											<div class="onoffswitch hotpink">
-											  <input type="checkbox" name="SST"  value="1" class="onoffswitch-checkbox" id="switch-off4">
+											  <input type="checkbox" name="SST"  value="L1.4" class="onoffswitch-checkbox" id="switch-off4">
 											  <label class="onoffswitch-label" for="switch-off4">
 												<span class="onoffswitch-inner"></span>
 												<span class="onoffswitch-switch"></span>

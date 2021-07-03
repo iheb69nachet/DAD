@@ -11,8 +11,8 @@ $item_Reference_demande ='';
 /*$conn1 = new PDO("sqlsrv:Server=192.168.0.46; Database=JDE_PRODUCTION", "DAD", "dAd2020+");
 $conn1->setAttribute ( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );*/
 
-$conn1 = new PDO("sqlsrv:Server=192.168.0.46; Database=JDE_CRP", "DAD", "dAd2020+");
-$conn1->setAttribute ( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+// $conn1 = new PDO("sqlsrv:Server=192.168.0.46; Database=JDE_CRP", "DAD", "dAd2020+");
+// $conn1->setAttribute ( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
 
 ?>
@@ -28,6 +28,60 @@ echo "Failed to connect: " .mysqli_connect_error();
 
 // Insert into MySQl - Table Demande //
 if(isset($_POST['Envoyer'])){
+
+
+// print_r($_POST);
+$data=$_POST;
+$levels=[];
+
+function getLevels($ara){
+
+if(isset($_POST['Directeur_indus'])){
+array_push($ara,'L1.1');
+
+
+}
+if(isset($_POST['Directeur_maint'] )){
+array_push($ara,'L1.2');
+
+
+}
+if(isset($_POST['HACCP'] ) ){
+  array_push($ara,'L1.3');
+
+
+}
+if(isset($_POST['SST'])  ){
+  array_push($ara,'L1.4');
+
+ 
+
+}
+return $ara;
+}
+
+if($_POST['Directeur_indus']){
+
+  $current_level='L1.1';
+
+}
+elseif($_POST['Directeur_maint'] && !$_POST['Directeur_indus']){
+  $current_level='L1.2';
+
+}
+elseif($_POST['HACCP'] && !$_POST['Directeur_indus'] && !$_POST['Directeur_maint']){
+  $current_level='L1.';
+
+}
+elseif($_POST['SST'] && !$_POST['Directeur_maint'] && !$_POST['Directeur_indus'] && !$_POST['HACCP']){
+  $current_level='L1.4';
+
+}
+
+$steps=getLevels($levels);
+$final_level=$steps[count($steps)-1];
+
+
 
 
 $query = "SELECT Email FROM `compte_user` where Nom = '".$_SESSION["Chef_Hierarchie"]."'";
@@ -108,10 +162,19 @@ $date_creation = $dtee;
 $da =  date('d / m / Y');
 $id_user = $_SESSION['ID'];
 
+if(count($steps)==0){
+  $sql .= "INSERT INTO demande(Reference_demande, Direction, departement, service, Nom, Matricule, site, reception, axes1, axes2, designation_depense, justification_depense, Depense_budgetisee, Proposition_fournisseurs, file_upload, da, ref_site, cs, Magcc, centrecc, coutestime, id_user) 
+  VALUES('$Reference_demande', '$Direction', '$departement', '$service', '$Nom', '$Matricule', '$site', '$reception', '$axes1', '$axes2', '$designation_depense', '$justification_depense', '$Depense_budgetisee', '$Proposition_fournisseurs', '$pname', '$da', '$ref_site', '$cs', '$Magcc', '$centrecc', '$coutestime', '$id_user')";
+  
+}
+else{
+$steps=implode("/",$steps);
 
+  $sql .= "INSERT INTO demande(Reference_demande, Direction, departement, service, Nom, Matricule, site, reception, axes1, axes2, designation_depense, justification_depense, Depense_budgetisee, Proposition_fournisseurs, file_upload, da, ref_site, cs, Magcc, centrecc, coutestime, id_user,current_level,steps,final_level) 
+VALUES('$Reference_demande', '$Direction', '$departement', '$service', '$Nom', '$Matricule', '$site', '$reception', '$axes1', '$axes2', '$designation_depense', '$justification_depense', '$Depense_budgetisee', '$Proposition_fournisseurs', '$pname', '$da', '$ref_site', '$cs', '$Magcc', '$centrecc', '$coutestime', '$id_user','$current_level','$steps','$final_level')";
+
+}
 // Insert into database Demande //
-$sql .= "INSERT INTO demande(Reference_demande, Direction, departement, service, Nom, Matricule, site, reception, axes1, axes2, designation_depense, justification_depense, Depense_budgetisee, Proposition_fournisseurs, file_upload, da, ref_site, cs, Magcc, centrecc, coutestime, id_user) 
-VALUES('$Reference_demande', '$Direction', '$departement', '$service', '$Nom', '$Matricule', '$site', '$reception', '$axes1', '$axes2', '$designation_depense', '$justification_depense', '$Depense_budgetisee', '$Proposition_fournisseurs', '$pname', '$da', '$ref_site', '$cs', '$Magcc', '$centrecc', '$coutestime', '$id_user')";
 
 
 if (mysqli_query != ''){
