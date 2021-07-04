@@ -3,7 +3,7 @@ session_start();
  $connect = mysqli_connect("localhost", "root", "", "projetphase1");  
  
  //$query = "SELECT * FROM demande WHERE Depense_budgetisee =!'' AND site='".$_SESSION['site']."' ORDER BY id DESC";  
- $query='select * from demande where current_level="'.$_SESSION['acess_level'].'"';
+ $query='select * from demande where current_level="'.$_SESSION['acess_level'].'" and is_checked="unchecked" and is_rejected="no"';
  $result = mysqli_query($connect, $query);
  
 
@@ -142,14 +142,14 @@ session_start();
                      <h4 class="modal-title">Validation Demande selectionner</h4>  
                 </div>  
                 <div class="modal-body">  
-                     <form method="post" id="insert_form">  
+                     <form method="post"  action='http://localhost/Gestion/data/level.php'>  
                          
 								
 									
 								<div class="form-group">
 								<label for="input07" class="col-sm-4 control-label">Apporbation Dépense</label>
 								<div class="col-sm-8" id="selectbox" >
-								  <select name="validation_direction_maintenance" class="chosen-select chosen-transparent form-control"  id="input07" parsley-trigger="change" parsley-required="true" parsley-error-container="#selectbox">
+								  <select name="validation" class="chosen-select chosen-transparent form-control"  id="input07" parsley-trigger="change" parsley-required="true" parsley-error-container="#selectbox">
 									<option value=""></option>
 									<option value="Valider">Valider</option>
 									<option value="Rejeter" >Rejeter</option>
@@ -162,7 +162,8 @@ session_start();
 						   
                         <div class="modal-footer">  
 						 <input type="submit" name="justif_demande" id="justif_demande" value="justif_demande" class="btn btn-primary" /> 
-						<input type="hidden" name="employee_id" id="employee_id" />  
+						<input type="hidden" name="ref_id" id="ref_id" />  
+                         
                           <input type="submit" name="insert" id="insert" value="Insert" class="btn btn-success" /> 
                      <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>  
 					</div> 
@@ -180,24 +181,7 @@ session_start();
  <script>  
 
 $(document).ready(function(){  
-	 $('#insert_form').on("submit", function(event){  
-           event.preventDefault();  
-    
-                $.ajax({  
-                     url:"../Gestion/Menu_chef_hierarchie/mise_jour_demande/insert.php",  
-                     method:"POST",  
-                     data:$('#insert_form').serialize(),  
-                     beforeSend:function(){  
-                          $('#justif_demande').val("Insertion justif");  
-                     },  
-                     success:function(data){  
-                          $('#insert_form')[0].reset();  
-                          $('#add_data_Modal').modal('hide');  
-                          $('#employee_table').html(data);  
-                     }  
-                });  
-       
-      });  
+	 
 		
  });  
 
@@ -213,43 +197,12 @@ $(document).ready(function(){
       });  
       $(document).on('click', '.edit_data', function(){  
            var employee_id = $(this).attr("id");  
-           $.ajax({  
-                url:"../Gestion/Menu_chef_hierarchie/mise_jour_demande/fetch.php",  
-                method:"POST",  
-                data:{employee_id:employee_id},  
-                dataType:"json",  
-                success:function(data){  
-                     
-                     $('#Depense_budgetisee').val(data.Depense_budgetisee);  
-                     $('#designation_depense').val(data.designation_depense);  
-                     $('#justification_depense').val(data.justification_depense);  
-                     $('#Objet_depense').val(data.description1_L1);  
-					 $('#Objet_depense2').val(data.description2_L1);  
-                     $('#Etat').val(data.Etat);  
-                     $('#employee_id').val(data.id);  
-                     $('#insert').val("Enregistrer");  
-                     $('#add_data_Modal').modal('show');  
-                }  
-           });  
+       $('#ref_id').val(employee_id)
+       $('#add_data_Modal').modal('show');  
+
+         
       });  
-      $('#insert_form').on("submit", function(event){  
-           event.preventDefault();  
-    
-                $.ajax({  
-                     url:"../Gestion/Menu_chef_hierarchie/mise_jour_demande/insert.php",  
-                     method:"POST",  
-                     data:$('#insert_form').serialize(),  
-                     beforeSend:function(){  
-                          $('#insert').val("Validation");  
-                     },  
-                     success:function(data){  
-                          $('#insert_form')[0].reset();  
-                          $('#add_data_Modal').modal('hide');  
-                          $('#employee_table').html(data);  
-                     }  
-                });  
-       
-      });  
+      
       $(document).on('click', '.view_data', function(){  
            var employee_id = $(this).attr("id");  
            if(employee_id != '')  

@@ -10,13 +10,13 @@
 
             $(document).ready(function() {
 				  $('#between').on('click',function()  {
-                    $('#target').load('../Gestion/Menu_chef_hierarchie/Between/index.php');
+                    $('#target').load('../Gestion/Menu_Directeur_maintenance/mise_jour_demande/index.php');
                 });
 				 $('#column_filtre').on('click',function()  {
-                    $('#target').load('../Gestion/Menu_chef_hierarchie/column_filtre/index.php');
+                    $('#target').load('../Gestion/Menu_Directeur_maintenance/mise_jour_demande/index.php');
                 });
 				$('#suivi_demande').on('click',function()  {
-                    $('#target').load('../Gestion/Menu_chef_hierarchie/mise_jour_demande/index.php');
+                    $('#target').load('../Gestion/Menu_Directeur_maintenance/mise_jour_demande/index.php');
                 });
                 
 				 $('#timeline').on('click',function()  {
