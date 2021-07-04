@@ -163,8 +163,8 @@ $da =  date('d / m / Y');
 $id_user = $_SESSION['ID'];
 
 if(count($steps)==0){
-  $sql .= "INSERT INTO demande(Reference_demande, Direction, departement, service, Nom, Matricule, site, reception, axes1, axes2, designation_depense, justification_depense, Depense_budgetisee, Proposition_fournisseurs, file_upload, da, ref_site, cs, Magcc, centrecc, coutestime, id_user) 
-  VALUES('$Reference_demande', '$Direction', '$departement', '$service', '$Nom', '$Matricule', '$site', '$reception', '$axes1', '$axes2', '$designation_depense', '$justification_depense', '$Depense_budgetisee', '$Proposition_fournisseurs', '$pname', '$da', '$ref_site', '$cs', '$Magcc', '$centrecc', '$coutestime', '$id_user')";
+  $sql .= "INSERT INTO demande(Reference_demande, Direction, departement, service, Nom, Matricule, site, reception, axes1, axes2, designation_depense, justification_depense, Depense_budgetisee, Proposition_fournisseurs, file_upload, da, ref_site, cs, Magcc, centrecc, coutestime, id_user,is_checked) 
+  VALUES('$Reference_demande', '$Direction', '$departement', '$service', '$Nom', '$Matricule', '$site', '$reception', '$axes1', '$axes2', '$designation_depense', '$justification_depense', '$Depense_budgetisee', '$Proposition_fournisseurs', '$pname', '$da', '$ref_site', '$cs', '$Magcc', '$centrecc', '$coutestime', '$id_user','checked')";
   
 }
 else{
