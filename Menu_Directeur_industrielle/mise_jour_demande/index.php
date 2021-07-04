@@ -143,57 +143,13 @@ session_start();
                 </div>  
                 <div class="modal-body">  
                      <form method="post" id="insert_form">  
-                          <label> Objet de la dépense</label>  
-                          <textarea rows="1" cols="5" type="text" name="Objet_depense" id="Objet_depense" disabled class="" > </textarea>  
-                          <textarea rows="1" cols="5" type="text" name="Objet_depense2" id="Objet_depense2" disabled class="form" > </textarea> 
- 
-                          <br />  
-                          <label> Justificatif de la dépense</label>  
-                          <textarea name="Depense_budgetisee" id="Depense_budgetisee" disabled class="form-control"></textarea>  
-                          <br />   
-                          <label> designation de la dépense</label>  
-                          <textarea name="designation_depense" id="designation_depense" disabled class="form-control"></textarea>  
-                          <br />
-						  <label> Justification de la dépense</label>  
-                          <textarea name="justification_depense" id="justification_depense" disabled class="form-control"></textarea>  
-                          <br />  
-                          <label> </label> 
-                         <div class="row"></div>
-						 <?php
-						
-						/*  if (isset($_POST['justif_demande'])) {
-							   // $justif_demande = $_POST['justif_demande'];
-							   $conn3 = mysqli_connect("localhost", "root", "", "projetphase1");  
-							   $query3 = "INSERT INTO demande(justif_demande) values ('$_POST[justif_demande]')";
-							   $result3 = mysqli_query($conn3, $query3);
-							   
-						  }*/
-						  
-
-						 ?>
-                            
-                          
-						   
-                          <br /> 
-                          <!--<input type="text" name="Etat" id="Etat" class="form-control" />  
-								
-								<input type="radio" name="Etat" id="optionsRadios3" value="Valider" >
-									<label for="optionsRadios3">Valider</label>
-									
-									<input type="radio" name="Etat" id="optionsRadios4" value="Refuser">
-									<label for="optionsRadios4">Refuser</label>-->
-									<div class="form-group">
-								
-								<div class="col-sm-8" id="selectbox" >
-								  
-								</div>
-							  </div>
+                         
 								
 									
 								<div class="form-group">
 								<label for="input07" class="col-sm-4 control-label">Apporbation Dépense</label>
 								<div class="col-sm-8" id="selectbox" >
-								  <select name="Etat" class="chosen-select chosen-transparent form-control"  id="input07" parsley-trigger="change" parsley-required="true" parsley-error-container="#selectbox">
+								  <select name="validation_direction_indutrielle" class="chosen-select chosen-transparent form-control"  id="input07" parsley-trigger="change" parsley-required="true" parsley-error-container="#selectbox">
 									<option value=""></option>
 									<option value="Valider">Valider</option>
 									<option value="Rejeter" >Rejeter</option>
@@ -222,10 +178,7 @@ session_start();
 
  
  <script>  
-/*var count = 1;
-document.getElementById('justif_demande').onclick = function() {
-   alert("button was clicked " + (count++) + " times");
-};*/
+
 $(document).ready(function(){  
 	 $('#insert_form').on("submit", function(event){  
            event.preventDefault();  

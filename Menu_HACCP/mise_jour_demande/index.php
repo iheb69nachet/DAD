@@ -2,11 +2,12 @@
 session_start();
  $connect = mysqli_connect("localhost", "root", "", "projetphase1");  
  
- $query = "SELECT * FROM demande WHERE Etat ='' AND statut_demande = '' and site='".$_SESSION['site']."' ORDER BY id DESC";  
+ //$query = "SELECT * FROM demande WHERE Depense_budgetisee =!'' AND site='".$_SESSION['site']."' ORDER BY id DESC";  
+ $query='select * from demande where current_level="'.$_SESSION['acess_level'].'"';
  $result = mysqli_query($connect, $query);
+ 
 
-  $query2 = "SELECT * FROM demande WHERE Etat !='' AND site='".$_SESSION['site']."' ORDER BY id DESC"; 
- $result2 = mysqli_query($connect, $query2);    
+  
  
  
  ?>  
@@ -109,87 +110,7 @@ session_start();
                 </section>
 				
 				
-			<section class="tile transparent">
-				<div class="tile-header transparent">
-                    <h1><strong>Historiques des Demandes </strong>  </h1>
-                    
-                   
-                  </div>
-                  <!-- tile body -->
-                  <div class="tile-body color transparent-black rounded-corners">
-                    
-                    <div class="table-responsive" style="width:100%; height:350px; overflow:auto;">
-                      <table  class="table table-datatable table-custom" id="advancedDataTable">
-                        <thead>
-                          <tr>
-                            <th width="10%">N° Demande</th>  
-                            <th width="10%">Matricule</th>  
-                            <th width="10%">Objet de la dépense</th>  
-                            <th width="10%">designation de la dépense</th>  
-                            <th width="10%">justification de la dépense</th>  
-							
-							<th width="10%">Date </th> 
-                            <th width="10%">Etat</th>  
-                            <th width="10%">Piéce Joint</th>  
-							<th width="10%">Actions</th>  
-								  
-							
-						
-                          </tr>
-						  
-                        </thead>
-                        <tbody>
-                    <?php  
-                               while($row = mysqli_fetch_array($result2))  
-                               {  
-                               ?>  
-                               <tr>  
-                                    <td><?php echo $row["Reference_demande"]; ?></td>  
-                                    <td><?php echo $row["Matricule"]; ?></td> 
-                                    <td><?php echo $row["description1_L1"]; ?></td> 
-                                    <td><?php echo $row["designation_depense"]; ?></td> 
-                                    <td><?php echo $row["justification_depense"]; ?></td> 
-									<td><?php echo $row["da"]; ?></td> 
-									<td><?php echo $row["Etat"]; ?></td> 									
-                                    <td><?php if($row["file_upload"]) echo '<a download href="Menu_demandeur/upload/'. $row["file_upload"] .'">Piece_Joint</a>' ?></td>  
-                                   
-									<td>
-										<?php
-										  if($row["Etat"]==""){
-											// echo '<input type="button" name="edit" value="Actions" id="'.<?php echo $row["id"]; ?.'"/>';
-									echo '<input class="btn btn-danger btn-md edit_data" type="button" name="edit"  value="Actions" id="'.$row["id"].'">';
-									// var_dump ($row["id"]);
-									// exit();
-										  }
-										  else{
-									echo '<input class="btn btn-info btn-md view_data" type="button" name="view" value="Details" id="'.$row["id"].'">';
-										  }
-										?>	 
-								 </td>  								 
-
-
-								 <!-- <td>
-										<input type="button" name="edit" value="Actions" id="?php echo $row["id"]; ?>" class="btn btn-danger btn-xs edit_data" />
-										<input type="button" name="view" value="Details" id="?php echo $row["id"]; ?>" class="btn btn-info btn-xs view_data" />
-									</td>  -->
-                                  
-                               </tr>  
-                               <?php  
-                               }  
-                               ?>  
-                        </tbody>
-                       
-                      </table>
-                    </div>
-
-                  </div>
-                  <!-- /tile body -->
-                
-
-
-                </section>
-				
-				
+			
 				
 				
 				
@@ -222,57 +143,13 @@ session_start();
                 </div>  
                 <div class="modal-body">  
                      <form method="post" id="insert_form">  
-                          <label> Objet de la dépense</label>  
-                          <textarea rows="1" cols="5" type="text" name="Objet_depense" id="Objet_depense" disabled class="" > </textarea>  
-                          <textarea rows="1" cols="5" type="text" name="Objet_depense2" id="Objet_depense2" disabled class="form" > </textarea> 
- 
-                          <br />  
-                          <label> Justificatif de la dépense</label>  
-                          <textarea name="Depense_budgetisee" id="Depense_budgetisee" disabled class="form-control"></textarea>  
-                          <br />   
-                          <label> designation de la dépense</label>  
-                          <textarea name="designation_depense" id="designation_depense" disabled class="form-control"></textarea>  
-                          <br />
-						  <label> Justification de la dépense</label>  
-                          <textarea name="justification_depense" id="justification_depense" disabled class="form-control"></textarea>  
-                          <br />  
-                          <label> </label> 
-                         <div class="row"></div>
-						 <?php
-						
-						/*  if (isset($_POST['justif_demande'])) {
-							   // $justif_demande = $_POST['justif_demande'];
-							   $conn3 = mysqli_connect("localhost", "root", "", "projetphase1");  
-							   $query3 = "INSERT INTO demande(justif_demande) values ('$_POST[justif_demande]')";
-							   $result3 = mysqli_query($conn3, $query3);
-							   
-						  }*/
-						  
-
-						 ?>
-                            
-                          
-						   
-                          <br /> 
-                          <!--<input type="text" name="Etat" id="Etat" class="form-control" />  
-								
-								<input type="radio" name="Etat" id="optionsRadios3" value="Valider" >
-									<label for="optionsRadios3">Valider</label>
-									
-									<input type="radio" name="Etat" id="optionsRadios4" value="Refuser">
-									<label for="optionsRadios4">Refuser</label>-->
-									<div class="form-group">
-								
-								<div class="col-sm-8" id="selectbox" >
-								  
-								</div>
-							  </div>
+                         
 								
 									
 								<div class="form-group">
 								<label for="input07" class="col-sm-4 control-label">Apporbation Dépense</label>
 								<div class="col-sm-8" id="selectbox" >
-								  <select name="Etat" class="chosen-select chosen-transparent form-control"  id="input07" parsley-trigger="change" parsley-required="true" parsley-error-container="#selectbox">
+								  <select name="validation_haccp" class="chosen-select chosen-transparent form-control"  id="input07" parsley-trigger="change" parsley-required="true" parsley-error-container="#selectbox">
 									<option value=""></option>
 									<option value="Valider">Valider</option>
 									<option value="Rejeter" >Rejeter</option>
@@ -301,10 +178,7 @@ session_start();
 
  
  <script>  
-/*var count = 1;
-document.getElementById('justif_demande').onclick = function() {
-   alert("button was clicked " + (count++) + " times");
-};*/
+
 $(document).ready(function(){  
 	 $('#insert_form').on("submit", function(event){  
            event.preventDefault();  

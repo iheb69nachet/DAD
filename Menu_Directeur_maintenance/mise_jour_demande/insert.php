@@ -24,9 +24,7 @@
 
       $output = '';  
       $messid_user = '';  
-     /* $Reference_demande = mysqli_real_escape_string($connect, $_POST["Reference_demande"]);  
-      $Depense_budgetisee = mysqli_real_escape_string($connect, $_POST["Depense_budgetisee"]);  
-      $Matricule = mysqli_real_escape_string($connect, $_POST["Matricule"]);  */ 
+
       $Etat = mysqli_real_escape_string($connect, $_POST["Etat"]); 
  
 		
@@ -34,8 +32,7 @@
       {  
            $query = "  
            UPDATE demande   
-           SET Etat = '$Etat', Nom_chefhierarchie = '".$_SESSION["Nom"]."', Matricule_chefhierarchie = '".$_SESSION["Matricule"]."',
-			justif_demande = 'justif_demande'	   
+           SET validation_direction_maintenance = '$validation_direction_maintenance'	   
             WHERE id='".$_POST["employee_id"]."'";  
 		   
 			// echo $result2; exit;

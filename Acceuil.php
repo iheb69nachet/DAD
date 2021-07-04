@@ -161,13 +161,13 @@ switch ($mypage){
 									if(($_SESSION['acess_level'] == "L1.1") ){
 									 include("Menu_Directeur_industrielle/Sidbar_Directeur_industrielle.php"); 
 									}
-									if(($_SESSION['acess_level'] == "L12") ){
+									if(($_SESSION['acess_level'] == "L1.2") ){
 									 include("Menu_Directeur_maintenance/Sidbar_Directeur_maintenance.php"); 
 									}
-									if(($_SESSION['acess_level'] == "L13") ){
+									if(($_SESSION['acess_level'] == "L1.3") ){
 									 include("Menu_HACCP/Sidbar_HACCP.php"); 
 									}
-									if(($_SESSION['acess_level'] == "L14") ){
+									if(($_SESSION['acess_level'] == "L1.4") ){
 									 include("Menu_SST/Sidbar_SST.php"); 
 									}
 									/*******************************************************************************/	
@@ -210,13 +210,13 @@ switch ($mypage){
 									if(($_SESSION['acess_level'] == "L1.1") ){
 									 include("Menu_Directeur_industrielle/NavBar_Directeur_industrielle.php"); 
 									}
-									if(($_SESSION['acess_level'] == "L12") ){
+									if(($_SESSION['acess_level'] == "L1.2") ){
 									 include("Menu_Directeur_maintenance/NavBar_Directeur_maintenance.php"); 
 									}
-									if(($_SESSION['acess_level'] == "L13") ){
+									if(($_SESSION['acess_level'] == "L1.3") ){
 									 include("Menu_HACCP/NavBar_HACCP.php"); 
 									}
-									if(($_SESSION['acess_level'] == "L14") ){
+									if(($_SESSION['acess_level'] == "L1.4") ){
 									 include("Menu_SST/NavBar_SST.php"); 
 									}
 									/*******************************************************************************/	
@@ -273,13 +273,13 @@ switch ($mypage){
 									if(($_SESSION['acess_level'] == "L1.1") ){
 									 include("Menu_Directeur_industrielle/Acceuil_Directeur_industrielle.php"); 
 									}
-									if(($_SESSION['acess_level'] == "L12") ){
+									if(($_SESSION['acess_level'] == "L1.2") ){
 									 include("Menu_Directeur_maintenance/Acceuil_Directeur_maintenance.php"); 
 									}
-									if(($_SESSION['acess_level'] == "L13") ){
+									if(($_SESSION['acess_level'] == "L1.3") ){
 									 include("Menu_HACCP/Acceuil_HACCP.php"); 
 									}
-									if(($_SESSION['acess_level'] == "L14") ){
+									if(($_SESSION['acess_level'] == "L1.4") ){
 									 include("Menu_SST/Acceuil_SST.php"); 
 									}
 									/*******************************************************************************/	
